@@ -20,6 +20,49 @@ Any one of these, implemented and published properly, is a research paper. Toget
 
 ---
 
+## Quick Start
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Init databases
+python D/bootstrap.py
+
+# 3. Start server + open monitor UI
+start.bat          # Windows — auto-opens http://localhost:8000
+# or manually:
+python I/server.py
+```
+
+> **Monitor UI** → [http://localhost:8000](http://localhost:8000) — real-time dashboard tracking all internal metrics (ODFS, P2, Lucis, Gap Field, active nodes, 36 subgates)
+
+> **Full logic flow** → see [FLOW.md](./FLOW.md)
+
+---
+
+## Architecture Summary
+
+| Layer | Entry | Description | Key Subsystems |
+|-------|-------|-------------|---------------|
+| **I** | `I/core.py` | 7-step input pipeline → `LearningEvent` | SituationSignal, L(n) formula, boundary detect, subconscious expand |
+| **P** | `P/p_engine.py` | 13-step cognitive tick — the brain | ODFS dual kernels, P2 consciousness, 7 chakras, Lucis verdict, quantum particles, wave states, semantic gravity, memory tiers |
+| **O** | `O/gate/`, `O/compose/` | Output generation pipeline | 5 gates (THINK/FEEL/SAY/DO/SHOW), pattern match, surface realizer, literary scorer, P-space anti-echo |
+| **D** | `D/db.py` | SQLite data layer (WAL) | 6 tables: nodes, cooc, grammar, role_positions, identity, patterns |
+
+| Subsystem | File | What it does |
+|-----------|------|-------------|
+| ODFS Kernel | `P/think/odfs/odfs_kernel.py` | RK4 field dynamics, ASSIMILATE/QUARANTINE/EXCRETE verdict |
+| SemanticNeuron | `P/think/semantic/neuron/neuron.py` | Node with 6D meaning, lifecycle phases Vo→Sinh→Dan→Chuyen→Dung→Hoai |
+| P2 Consciousness | `P/think/consciousness/p2_primordial.py` | Session self-awareness, spin, IAM streak |
+| Lucis Gate | `P/think/lucis/lucis_gate.py` | 5 roles + 36 subgates (6 fields × 6 phases) + GapEngine |
+| Chakra System | `P/think/chakra/` | 7 chakras, each with own Ω_user kernel + 7 seed sets |
+| Gap Field | `P/think/odfs/gap_field.py` | 3-level neuro gap density (L1/L2/L3) |
+| Subconscious | `P/think/subconscious.py` | Background 70k-word pool; 15% blend into R_weighted |
+| Symbol Learning | `I/O/build.py` | `L(n) = freq^0.5 × CF × D × Surp × source_weight` |
+
+---
+
 ## Architecture: I → P → O → D
 
 ```
