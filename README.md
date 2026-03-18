@@ -8,7 +8,7 @@ This is a bottom-up attempt to model **what actually happens inside a mind** —
 
 Each subsystem in this architecture is a standalone idea that has no direct equivalent in current AI literature:
 
-- **ODFS** — a field-based meaning engine where concepts exist as oscillating attractors, not static vectors
+- **ODFS** — a field-based meaning engine where concepts exist as ontological drift attractors, not static vectors
 - **Gap Fields** — models the *tension* between what is known and what is missing, treating incompleteness as a first-class cognitive signal
 - **Lucis Layers** — a three-stage verdict system modeled after how consciousness filters, audits, and commits to a thought before it surfaces
 - **Semantic Gravity** — meaning is not stored, it is *pulled into existence* by the gravitational relationship between active nodes
@@ -52,7 +52,7 @@ Each concept is a `SemanticNeuron` — not a vector embedding, but a structured 
 - **Gap fields**: the "tension" between what is known and what is missing
 - **Wave lifecycle**: nodes are born, activated, promoted, and decay over time
 
-### ODFS — Oscillating Dynamic Field System
+### ODFS — Ontological Drift Field System
 The processing core. Nodes exist in a field with gravity, repulsion, and resonance. Meaning emerges from **field dynamics**, not lookup tables.
 
 ### Consciousness Layers
@@ -185,7 +185,7 @@ computational linguistics · semantics · pragmatics · speech act theory · lit
 **Information Theory & AI**
 information theory (PMI / entropy) · information geometry · reinforcement learning · attention mechanisms · embedding space theory · associative learning · systems theory · cybernetics
 
-**Domain-hybrid concepts invented along the way**: ODFS (Oscillating Dynamic Field System), semantic gravity, gap fields, Lucis verdict layers, P-space anti-echo, primordial consciousness phases.
+**Domain-hybrid concepts invented along the way**: ODFS (Ontological Drift Field System), semantic gravity, gap fields, Lucis verdict layers, P-space anti-echo, primordial consciousness phases.
 
 Zero syntax knowledge. Not a single line written by hand — 100% AI-coded, because learning syntax felt like a waste of time when the ideas were the point.
 
