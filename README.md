@@ -55,6 +55,9 @@ Each concept is a `SemanticNeuron` — not a vector embedding, but a structured 
 ### ODFS — Ontological Drift Field System
 The processing core. Nodes exist in a field with gravity, repulsion, and resonance. Meaning emerges from **field dynamics**, not lookup tables.
 
+> **Naming note:** The acronym oscillates between *Field* and *Form* depending on context — both are valid readings. "Field" emphasizes the spatial/dynamic substrate; "Form" emphasizes the ontological shape a concept takes as it drifts. No final decision has been made. When you see ODFS written as "Ontological Drift Form System" elsewhere in the codebase or papers, it means the same thing.
+
+
 ### Consciousness Layers
 - **P1** — prelinguistic activation: raw symbol firing
 - **P2** — primordial consciousness: session-level self-awareness, identity tracking
