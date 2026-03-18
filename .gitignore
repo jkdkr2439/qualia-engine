@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Runtime databases (generated, not committed)
+D/data/
+D/*.db
+D/long_term/
+D/short_term/
+D/unconscious/
+D/logs/
+D/raw/
+D/residues/
+D/identities/
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime working memory
+P/working/*.json
+P/working/*.pkl
+
+# Personal / identity data
+D/Pete_memories/
+D/identities/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
