@@ -531,7 +531,11 @@ function fieldColor(f) { return FCOLORS[f] || '#536070'; }
 async function pollStats() {
   try {
     const d = await fetch('/stats').then(r=>r.json());
-    if (d.status === 'loading') { setStatus('loading','loading…'); return; }
+    if (d.status === 'loading') {
+      setStatus('loading', d.load_progress || 'loading nodes…');
+      $('s-nodes').textContent = '…';
+      return;
+    }
     $('s-nodes').textContent       = (d.nodes ?? '—').toLocaleString();
     $('s-nodes-db').textContent    = (d.nodes_in_db ?? '—').toLocaleString();
     $('s-fields').textContent      = (d.fields ?? '—').toLocaleString();
